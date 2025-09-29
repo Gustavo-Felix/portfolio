@@ -1,0 +1,163 @@
+/* Estilos Globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #44444E;
+    color: #F5F7F8;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    border-radius: 8px; 
+    margin-top: 1rem;
+}
+
+/* NAVBAR */
+header {
+    position: sticky;
+    top: 0%;
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2f33;
+    padding: 1rem; 
+    font-weight: 600; 
+}
+
+.navbar-main a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-main a:hover {
+    color: #a7a7a7; 
+}
+
+.navbar-left a {
+    font-size: 1.25rem; 
+}
+
+.navbar-right {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-right li {
+    display: inline-block; 
+}
+
+/* BODY */
+section {
+    padding: 0 1rem; 
+}
+
+.section-title {
+    padding: 0.7rem 0;
+    background: #2c2f33;
+    text-align: center;
+    border-radius: 1.4rem;
+    box-shadow: 4px 3px 3px black;
+    margin: 3rem 40%; 
+}
+
+.acp-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+}
+
+.acp {
+    flex: 1 1 300px; 
+    background-color: #2c2f33;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.acp:hover {
+    box-shadow: 10px 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.certificates-container img {
+    max-width: 400px; 
+    width: 100%;
+    height: auto;
+}
+
+/* ABOUT */
+#about p{
+    background-color: #2c2f33;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: transform 0.3s ease-in-out;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    box-shadow: 4px 3px 3px black;
+}
+
+#about ul {
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+#about a {
+    display: inline-block;
+    margin: 0 10px; 
+    transition: color 0.3s ease-in-out;
+}
+
+/* SOCIAL MIDIAS */
+.github {
+    color: black;
+    transition: color 0.5s ease-in-out;
+}
+
+.github:hover {
+    color: #f5f5f5; 
+}
+
+.linkedin {
+    transition: color 0.5s ease-in-out;
+}
+
+.linkedin:hover {
+    color: black; 
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c2f33;
+    padding: 1rem 0; /* Espaçamento interno (topo e base) */
+    width: 100%; /* Garante que ocupe a largura total */
+}
+
+footer p {
+    text-align: center; 
+    margin: 0; 
+}
